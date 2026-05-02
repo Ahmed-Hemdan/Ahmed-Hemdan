@@ -12,8 +12,24 @@
 
 - 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1fEFxS0fq-0vo9WAoDKkpSwUNy5zbxwA6/view?usp=sharing_link)
 
+<style>
+  .flex-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .flex-icons a {
+    flex: 1 0 25%; /* 4 عناصر في الصف */
+    text-align: center;
+  }
+  /* لو عايز الصف الثاني يبقى 5 عناصر */
+  .flex-icons a:nth-child(n+5):nth-child(-n+9) {
+    flex: 1 0 20%; /* 5 عناصر في الصف الثاني */
+  }
+</style>
+
 <h3 align="left">Languages and Tools:</h3>
-<p align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<p class="flex-icons" align="left">
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
   </a>
@@ -46,10 +62,8 @@
   </a>
 </p>
 
-p a {
-  flex: 1 0 25%;
-  text-align: center;
-}
+
+
 
 
 <!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmed-hemdan&show_icons=true&locale=en&layout=compact" alt="ahmed-hemdan" /></p>
