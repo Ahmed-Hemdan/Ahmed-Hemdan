@@ -12,21 +12,11 @@
 
 - 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1fEFxS0fq-0vo9WAoDKkpSwUNy5zbxwA6/view?usp=sharing_link)
 
-<style>
-  .flex-icons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .flex-icons a {
-    flex: 1 0 25%; /* 4 عناصر في الصف */
-    text-align: center;
-  }
-  /* لو عايز الصف الثاني يبقى 5 عناصر */
-  .flex-icons a:nth-child(n+5):nth-child(-n+9) {
-    flex: 1 0 20%; /* 5 عناصر في الصف الثاني */
-  }
-</style>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/ahmed-hemdan-309118269/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ahmed-hemdan-309118269/" height="30" width="40" /></a>
+<a href="https://fb.com/profile.php?id=100023026776010" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="profile.php?id=100023026776010" height="30" width="40" /></a>
+</p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p class="flex-icons" align="left">
